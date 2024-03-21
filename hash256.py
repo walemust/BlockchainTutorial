@@ -1,5 +1,7 @@
 import hashlib
+import streamlit as st
 
+st.text("this is my first streamlit code")
 def hash_cal(input_string):
 
 #Create the Hash object to the data
